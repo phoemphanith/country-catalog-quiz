@@ -111,7 +111,11 @@ const App = () => {
                 <td>{country.name.official}</td>
                 <td>{country.cca2 || "-"}</td>
                 <td>{country.ccn3 || "-"}</td>
-                <td>k</td>
+                <td>
+                  {typeof country.name.nativeName?.zho != "undefined"
+                    ? country.name.nativeName?.zho.official
+                    : "-"}
+                </td>
                 <td>{country.altSpellings || "-"}</td>
                 <td>{country.idd.root || "-"}</td>
               </tr>
