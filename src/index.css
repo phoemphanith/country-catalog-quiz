@@ -1,0 +1,19 @@
+.search__form {
+  display: flex;
+}
+.search__form input {
+  max-width: 300px;
+  font-size: 0.9rem;
+}
+.search__form select {
+  max-width: 100px;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+.pagination .page-link {
+  color: #333;
+}
+.table th {
+  font-size: 14px;
+  white-space: nowrap;
+}
